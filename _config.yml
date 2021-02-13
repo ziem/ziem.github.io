@@ -9,9 +9,7 @@ permalink:           /:title
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Ziem
 
 # Gems
 plugins:
