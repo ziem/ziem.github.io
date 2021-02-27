@@ -2,3 +2,13 @@
   margin-left: 0;
   margin-right: 0;
 }
+
+pre {
+  word-break: break-word;
+}
+
+@media (min-width: 56em) {
+  .container {
+    max-width: 48rem;
+  }
+}
