@@ -1,10 +1,11 @@
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:               Ziem
+tagline:             'My personal blog'
+description:         "Hello! I'm Ziem and this is my personal blog."
 url:                 https://ziem.github.io
 baseurl:             ''
 paginate:            5
+paginate_path:       /page/:num/
 permalink:           /:title
 
 # About/contact
@@ -16,5 +17,4 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
