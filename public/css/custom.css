@@ -7,6 +7,11 @@ pre {
   word-break: break-word;
 }
 
+.page,
+.post {
+  margin-bottom: 2em;
+}
+
 @media (min-width: 56em) {
   .container {
     max-width: 48rem;
