@@ -5,7 +5,7 @@ title: How to deploy your Ktor application to Render?
 
 Recently, after Heroku announced removal of their free plans, I migrated my hobby project from Heroku to Render.
 
-Render, https://render.com/, is yet another cloud application hosting. According to the Internet, it's a good alternative to Heroku.
+Render, <https://render.com/>, is yet another cloud application hosting. According to the Internet, it's a good alternative to Heroku.
 It doesn't support Java out of the box, but you can host anything with Docker.
 
 To deploy your Ktor application, we need two things. First, add `io.ktor.plugin` plugin to your root build.gradle file:
@@ -33,7 +33,7 @@ Keep in mind to replace the `ktor-docker-sample` with your project name.
 
 Now it's time to do `git commit` & `git push`.
 
-Next, in the https://render.com/ dashboard, you select New -> Web Service and connect your GitHub/GitLab repo. Default options are good enough.
+Next, in the <https://render.com/> dashboard, you select New -> Web Service and connect your GitHub/GitLab repo. Default options are good enough.
 
 After that, the build should start, and at the end you should see a green tick with "Deploy live for XXX" text.
 
