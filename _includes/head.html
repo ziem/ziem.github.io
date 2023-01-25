@@ -27,15 +27,8 @@
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
 
-  {% if site.google_analytics_id %}
-  <link rel="preconnect" as="script" href="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}">
-  <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <script data-goatcounter="https://ziem.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
 
-      gtag('config', '{{ site.google_analytics_id }}');
-  </script>
-  {% endif %}
   {% seo %}
 </head>

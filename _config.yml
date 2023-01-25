@@ -18,6 +18,3 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
-
-# Custom vars
-google_analytics_id: UA-203690810-1
