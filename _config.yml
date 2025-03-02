@@ -9,8 +9,6 @@ paginate_path:       /page/:num/
 permalink:           /:title
 timezone:            Europe/Warsaw
 
-domain_redirect: https://ziem.me
-
 # About/contact
 author:
   name:              Ziem
